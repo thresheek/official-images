@@ -1,44 +1,30 @@
-# this file is generated via https://github.com/docker-library/redmine/blob/3a41d66499222d90f2f4207c7f6dafd38f4001c5/generate-stackbrew-library.sh
+# this file is generated via https://github.com/docker-library/redmine/blob/540786b2e371dcfb74be6da6bc2a77f75d9d6b07/generate-stackbrew-library.sh
 
 Maintainers: Tianon Gravi <admwiggin@gmail.com> (@tianon),
              Joseph Ferguson <yosifkit@gmail.com> (@yosifkit)
 GitRepo: https://github.com/docker-library/redmine.git
 
-Tags: 4.2.2, 4.2, 4, latest
+Tags: 5.0.4, 5.0, 5, latest, 5.0.4-bullseye, 5.0-bullseye, 5-bullseye, bullseye
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: dbfcdff61cd9da51b2a5bd5146a381fa4c3776d8
+GitCommit: 8749011cf59188062efd880e64cd69e800e1d447
+Directory: 5.0
+
+Tags: 5.0.4-alpine, 5.0-alpine, 5-alpine, alpine, 5.0.4-alpine3.16, 5.0-alpine3.16, 5-alpine3.16, alpine3.16
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
+GitCommit: 8749011cf59188062efd880e64cd69e800e1d447
+Directory: 5.0/alpine
+
+Tags: 4.2.9, 4.2, 4, 4.2.9-bullseye, 4.2-bullseye, 4-bullseye
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, s390x
+GitCommit: 6ba68a3fdcc615faab7fa8e32e7b3bf8247a5fb8
 Directory: 4.2
 
-Tags: 4.2.2-passenger, 4.2-passenger, 4-passenger, passenger
-GitCommit: 88e2dafa2719a4196069257c2049f1a4ae457551
+Tags: 4.2.9-passenger, 4.2-passenger, 4-passenger
+Architectures: amd64
+GitCommit: ec4ba2df717b0c0adbbf34dc3a1a0e65f93a11e7
 Directory: 4.2/passenger
 
-Tags: 4.2.2-alpine, 4.2-alpine, 4-alpine, alpine
-GitCommit: dbfcdff61cd9da51b2a5bd5146a381fa4c3776d8
+Tags: 4.2.9-alpine, 4.2-alpine, 4-alpine, 4.2.9-alpine3.16, 4.2-alpine3.16, 4-alpine3.16
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
+GitCommit: 6ba68a3fdcc615faab7fa8e32e7b3bf8247a5fb8
 Directory: 4.2/alpine
-
-Tags: 4.1.4, 4.1
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: b31875ae4c7534c0699ff0ffd5513cbb39813f44
-Directory: 4.1
-
-Tags: 4.1.4-passenger, 4.1-passenger
-GitCommit: 88e2dafa2719a4196069257c2049f1a4ae457551
-Directory: 4.1/passenger
-
-Tags: 4.1.4-alpine, 4.1-alpine
-GitCommit: b31875ae4c7534c0699ff0ffd5513cbb39813f44
-Directory: 4.1/alpine
-
-Tags: 4.0.9, 4.0
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: 02809f9dead7b26e490f84107c7a2170f11fd2b9
-Directory: 4.0
-
-Tags: 4.0.9-passenger, 4.0-passenger
-GitCommit: 88e2dafa2719a4196069257c2049f1a4ae457551
-Directory: 4.0/passenger
-
-Tags: 4.0.9-alpine, 4.0-alpine
-GitCommit: 02809f9dead7b26e490f84107c7a2170f11fd2b9
-Directory: 4.0/alpine

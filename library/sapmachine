@@ -1,12 +1,17 @@
-Maintainers: Rene Schuenemann <sapmachine@sap.com> (@reshnm)
+Maintainers: Christoph Langer <sapmachine@sap.com> (@realclanger), Christian Halstrick <sapmachine@sap.com> (@chalstrick)
 GitRepo: https://github.com/SAP/SapMachine-infrastructure.git
 
-Tags: 16, 16.0.2, latest
-Architectures: amd64
-GitCommit: aecea5c02c476f8a30a96e12da9c6b27ac6f2c48
-Directory: dockerfiles/official/stable
+Tags: 11, 11.0.18
+Architectures: amd64, arm64v8, ppc64le
+GitCommit: 1d9a8aa21f4cb661656e617b0133b7d154c3992b
+Directory: dockerfiles/official/11
 
-Tags: 11, 11.0.12, lts
-Architectures: amd64
-GitCommit: 4f134f5d589f13b19b6a26931739fed44074ae77
-Directory: dockerfiles/official/lts
+Tags: 17, 17.0.6, lts
+Architectures: amd64, arm64v8, ppc64le
+GitCommit: 8d5fd07f2e40428a2027de2abf78ac9be0e3bc9d
+Directory: dockerfiles/official/17
+
+Tags: 19, 19.0.2, latest
+Architectures: amd64, arm64v8, ppc64le
+GitCommit: c515da6c71d27d6bbf8fca4c0e782a50e9f8319c
+Directory: dockerfiles/official/19

@@ -1,27 +1,31 @@
-# this file is generated via https://github.com/vmware/photon-docker-image/blob/b018a869c90bb837e15bc97457d26eaedf9f9bed/generate-stackbrew-library.sh
+# this file is generated via https://github.com/vmware/photon-docker-image/blob/a3f2e8dbfe1ed3995a04cd0919f2f23b7c561c3d/generate-stackbrew-library.sh
 Maintainers: Fabio Rapposelli <fabio@vmware.com> (@frapposelli),
+             Michelle Wang <michellew@vmware.com> (@michellew),
              Alexey Makhalov <amakhalov@vmware.com> (@YustasSwamp)
 GitRepo: https://github.com/vmware/photon-docker-image.git
 Directory: docker
 
-Tags: 4.0, 4.0-20210903, latest
+Tags: 5.0, 5.0-20230128, 5.0-beta
 Architectures: amd64, arm64v8
-GitFetch: refs/heads/x86_64/4.0-20210903
-GitCommit: 4ee776236fadf8da1fa700bc23c7ae7dd92ec3b1
-arm64v8-GitFetch: refs/heads/aarch64/4.0-20210903
-arm64v8-GitCommit: 5069ca56e0e03d95cb8aa647a2b4dd1020b1e0c6
+GitFetch: refs/heads/x86_64/5.0-20230128
+GitCommit: 2e9a9ec4cc3a40565d67c2c3495e5ef3dd046770
+arm64v8-GitFetch: refs/heads/aarch64/5.0-20230128
+arm64v8-GitCommit: 59c6fe9afe741f4dd05d38f8060da0fee6c41a26
 
-Tags: 3.0, 3.0-20210903
+Tags: 4.0, 4.0-20230227, latest
 Architectures: amd64, arm64v8
-GitFetch: refs/heads/x86_64/3.0-20210903
-GitCommit: ad3f89196a402def4347757648a11893f5ead870
-arm64v8-GitFetch: refs/heads/aarch64/3.0-20210903
-arm64v8-GitCommit: 0af3694c225060acf63a1f37ae301029bf9142ce
+GitFetch: refs/heads/x86_64/4.0-20230227
+GitCommit: 431c92b740089b2de33a8a1994e8e732f2eaf4b9
+arm64v8-GitFetch: refs/heads/aarch64/4.0-20230227
+arm64v8-GitCommit: b64a77102eba0924b19ec511fef6cdf740108d4a
 
-Tags: 1.0, 1.0-20210903
-GitFetch: refs/heads/1.0-20210903
-GitCommit: a080d8a77a779f4fbcbd360eb55419698c04a87c
+Tags: 3.0, 3.0-20230227
+Architectures: amd64, arm64v8
+GitFetch: refs/heads/x86_64/3.0-20230227
+GitCommit: 86dbd4178136ac54686398cc266c3767ecf2ef41
+arm64v8-GitFetch: refs/heads/aarch64/3.0-20230227
+arm64v8-GitCommit: 85dbfdd9a8b5dbab4f79df411ec71be608f64c81
 
-Tags: 2.0, 2.0-20210806
-GitFetch: refs/heads/2.0-20210806
-GitCommit: ae3b705b45bf1db2ab92b414192b045e44704bfd
+Tags: 2.0, 2.0-20221224
+GitFetch: refs/heads/2.0-20221224
+GitCommit: d420ffbab4ff9e1045217855073736775472694a

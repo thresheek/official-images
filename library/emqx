@@ -1,0 +1,21 @@
+Maintainers: Rory Z <rory-z@outlook.com> (@rory-z), Ivan Dyachkov <ivan.dyachkov@emqx.io> (@id)
+GitRepo: https://github.com/emqx/emqx-docker.git
+GitFetch: refs/heads/main
+
+Tags: 4.3.22, 4.3
+Architectures: amd64, arm64v8
+GitCommit: e641751b483a9d59b8878540de86aa3c72c9704d
+Directory: 4.3
+File: Dockerfile
+
+Tags: 4.4.14, 4.4, 4
+Architectures: amd64, arm64v8
+GitCommit: e641751b483a9d59b8878540de86aa3c72c9704d
+Directory: 4.4
+File: Dockerfile
+
+Tags: 5.0.17, 5.0, 5, latest
+Architectures: amd64, arm64v8
+GitCommit: e641751b483a9d59b8878540de86aa3c72c9704d
+Directory: 5.0
+File: Dockerfile

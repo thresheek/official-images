@@ -1,33 +1,33 @@
-# this file is generated via https://github.com/docker-library/gcc/blob/bb63178b4a0781555d904c3ac3897c9b81d922c8/generate-stackbrew-library.sh
+# this file is generated via https://github.com/docker-library/gcc/blob/c3775be3e5c9e2098cd3e9b68487ae73e4bcf1cd/generate-stackbrew-library.sh
 
 Maintainers: Tianon Gravi <admwiggin@gmail.com> (@tianon),
              Joseph Ferguson <yosifkit@gmail.com> (@yosifkit)
 GitRepo: https://github.com/docker-library/gcc.git
 
-# Last Modified: 2021-07-28
-Tags: 11.2.0, 11.2, 11, latest, 11.2.0-bullseye, 11.2-bullseye, 11-bullseye, bullseye
+# Last Modified: 2022-08-19
+Tags: 12.2.0, 12.2, 12, latest, 12.2.0-bullseye, 12.2-bullseye, 12-bullseye, bullseye
 Architectures: amd64, arm32v5, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: c2c4e3ac9245fa9e5789512969cf3209e0c56136
+GitCommit: 523e01b2ccf43f1fd702aa9fdc2f71c827b76525
+Directory: 12
+# Docker EOL: 2024-02-19
+
+# Last Modified: 2022-04-21
+Tags: 11.3.0, 11.3, 11, 11.3.0-bullseye, 11.3-bullseye, 11-bullseye
+Architectures: amd64, arm32v5, arm32v7, arm64v8, ppc64le, s390x
+GitCommit: a5a94a2d5c812fe57f6f28713b0f899b879145d3
 Directory: 11
-# Docker EOL: 2023-01-28
+# Docker EOL: 2023-10-21
 
-# Last Modified: 2021-04-08
-Tags: 10.3.0, 10.3, 10, 10.3.0-buster, 10.3-buster, 10-buster
-Architectures: amd64, arm32v5, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: a49434c14bb5fd8aa7d1d66b366195bbafea4e7e
+# Last Modified: 2022-06-28
+Tags: 10.4.0, 10.4, 10, 10.4.0-buster, 10.4-buster, 10-buster
+Architectures: amd64, arm32v7, arm64v8
+GitCommit: 1e3174f36d64a3ce1373a7004a7f0d4f98de307b
 Directory: 10
-# Docker EOL: 2022-10-08
+# Docker EOL: 2023-12-28
 
-# Last Modified: 2021-06-01
-Tags: 9.4.0, 9.4, 9, 9.4.0-buster, 9.4-buster, 9-buster
-Architectures: amd64, arm32v5, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: a49434c14bb5fd8aa7d1d66b366195bbafea4e7e
+# Last Modified: 2022-05-27
+Tags: 9.5.0, 9.5, 9, 9.5.0-buster, 9.5-buster, 9-buster
+Architectures: amd64, arm32v7, arm64v8
+GitCommit: 6c40a41a202b2996b26b52e94762fe9aa8830766
 Directory: 9
-# Docker EOL: 2022-12-01
-
-# Last Modified: 2021-05-14
-Tags: 8.5.0, 8.5, 8, 8.5.0-buster, 8.5-buster, 8-buster
-Architectures: amd64, arm32v5, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: a49434c14bb5fd8aa7d1d66b366195bbafea4e7e
-Directory: 8
-# Docker EOL: 2022-11-14
+# Docker EOL: 2023-11-27

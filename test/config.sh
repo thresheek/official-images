@@ -19,19 +19,16 @@ testAlias+=(
 	[adoptopenjdk]='openjdk'
 	[eclipse-temurin]='openjdk'
 	[sapmachine]='openjdk'
-	[iojs]='node'
+	[ibm-semeru-runtimes]='openjdk'
+
 	[jruby]='ruby'
 	[pypy]='python'
 
 	[ubuntu]='debian'
-	[ubuntu-debootstrap]='debian'
 
 	[mariadb]='mysql'
 	[percona]='mysql'
 	[percona:psmdb]='mongo'
-
-	[hola-mundo]='hello-world'
-	[hello-seattle]='hello-world'
 )
 
 imageTests+=(
@@ -41,8 +38,6 @@ imageTests+=(
 	'
 	[cassandra]='
 		cassandra-basics
-	'
-	[celery]='
 	'
 	[clojure]='
 	'
@@ -64,22 +59,14 @@ imageTests+=(
 		docker-dind
 		docker-registry-push-pull
 	'
-	[django]='
-	'
 	[eclipse-mosquitto]='
 		eclipse-mosquitto-basics
-	'
-	[elasticsearch]='
-		elasticsearch-basics
 	'
 	[elixir]='
 		elixir-hello-world
 	'
 	[erlang]='
 		erlang-hello-world
-	'
-	[fsharp]='
-		fsharp-hello-world
 	'
 	[gcc]='
 		gcc-c-hello-world
@@ -119,6 +106,12 @@ imageTests+=(
 	[logstash]='
 		logstash-basics
 	'
+	[matomo:apache]='
+		matomo-apache-run
+	'
+	[matomo:fpm]='
+		matomo-fpm-run
+	'
 	[memcached]='
 		memcached-basics
 	'
@@ -153,9 +146,7 @@ imageTests+=(
 		mysql-log-bin
 	'
 	[nextcloud]='
-		nextcloud-cli-mysql
-		nextcloud-cli-postgres
-		nextcloud-cli-sqlite
+		nextcloud-cli
 	'
 	[nextcloud:apache]='
 		nextcloud-apache-run
@@ -184,6 +175,7 @@ imageTests+=(
 	'
 	[perl]='
 		perl-hello-world
+		perl-cpanm
 	'
 	[php]='
 		php-ext-install
@@ -204,6 +196,12 @@ imageTests+=(
 		plone-zeoclient
 		plone-zeosite
 	'
+	[postfixadmin:apache]='
+		postfixadmin-apache-run
+	'
+	[postfixadmin:fpm]='
+		postfixadmin-fpm-run
+	'
 	[postgres]='
 		postgres-basics
 		postgres-initdb
@@ -211,6 +209,7 @@ imageTests+=(
 	[python]='
 		python-hy
 		python-imports
+		python-no-pyc
 		python-pip-requests-ssl
 		python-sqlite3
 		python-stack-size
@@ -220,8 +219,6 @@ imageTests+=(
 		rabbitmq-tls
 	'
 	[r-base]='
-	'
-	[rails]='
 	'
 	[rapidoid]='
 		rapidoid-hello-world
@@ -248,6 +245,7 @@ imageTests+=(
 		ruby-bundler
 		ruby-nonroot
 		ruby-binstubs
+		ruby-native-extension
 	'
 	[rust]='
 		rust-hello-world

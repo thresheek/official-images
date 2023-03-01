@@ -4,12 +4,12 @@ Maintainers: Tianon Gravi <admwiggin@gmail.com> (@tianon),
              Joseph Ferguson <yosifkit@gmail.com> (@yosifkit)
 GitRepo: https://github.com/docker-library/elasticsearch.git
 
-Tags: 7.14.1
+Tags: 8.6.2
 Architectures: amd64, arm64v8
-GitCommit: 54e879a700597725a9bf0bd905e5c3a36daf8404
-Directory: 7
+GitCommit: 90e34ca306d9800d3c0ab1c59387b93e89c69796
+Directory: 8
 
-Tags: 6.8.18
-Architectures: amd64
-GitCommit: c834683526fe79e051f595e738e26b39a33b22db
-Directory: 6
+Tags: 7.17.9
+Architectures: amd64, arm64v8
+GitCommit: 584687331345cc631249925517b78b2f1058914c
+Directory: 7

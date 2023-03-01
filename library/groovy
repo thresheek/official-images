@@ -1,74 +1,31 @@
 Maintainers: Keegan Witt <keeganwitt@gmail.com> (@keeganwitt)
 GitRepo: https://github.com/groovy/docker-groovy.git
 
-
-# Groovy 3
-
-Tags: 3.0.9-jdk8, 3.0-jdk8, 3.0.9-jdk, 3.0-jdk, jdk8, jdk
-Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: 400c5ce5baad6936a4fa3f6a52400345acb0dd9d
+Tags: 4.0.8-jdk8, 4.0-jdk8, jdk8, 4.0.8-jdk8-jammy, 4.0-jdk8-jammy, jdk8-jammy
+GitFetch: refs/heads/master
+Architectures: amd64, arm32v7, arm64v8, ppc64le
+GitCommit: de3d7a503dc033e4ce07942165aa363867ba9ce3
 Directory: jdk8
 
-Tags: 3.0.9-jre8, 3.0-jre8, 3.0.9-jre, 3.0-jre, 3.0.9, 3.0, jre8, jre, latest
+Tags: 4.0.8-jdk11, 4.0-jdk11, jdk11, 4.0.8-jdk11-jammy, 4.0-jdk11-jammy, jdk11-jammy
+GitFetch: refs/heads/master
 Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: 400c5ce5baad6936a4fa3f6a52400345acb0dd9d
-Directory: jre8
-
-Tags: 3.0.9-jdk11, 3.0-jdk11, jdk11
-Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: 400c5ce5baad6936a4fa3f6a52400345acb0dd9d
+GitCommit: de3d7a503dc033e4ce07942165aa363867ba9ce3
 Directory: jdk11
 
-Tags: 3.0.9-jre11, 3.0-jre11, jre11
+Tags: 4.0.8-jdk11-alpine, 4.0-jdk11-alpine, jdk11-alpine
+GitFetch: refs/heads/master
+Architectures: amd64
+GitCommit: de3d7a503dc033e4ce07942165aa363867ba9ce3
+Directory: jdk11-alpine
+
+Tags: 4.0.8-jdk17, 4.0-jdk17, jdk17, 4.0.8-jdk, 4.0-jdk, 4.0.8, 4.0, 4, jdk, latest, 4.0.8-jdk17-jammy, 4.0-jdk17-jammy, jdk17-jammy, 4.0.8-jdk-jammy, 4.0-jdk-jammy, 4.0.8-jammy, 4.0-jammy, 4-jammy, jdk-jammy, jammy
 Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: 400c5ce5baad6936a4fa3f6a52400345acb0dd9d
-Directory: jre11
+GitCommit: de3d7a503dc033e4ce07942165aa363867ba9ce3
+Directory: jdk17
 
-Tags: 3.0.9-jdk16, 3.0-jdk16, jdk16
-Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: 400c5ce5baad6936a4fa3f6a52400345acb0dd9d
-Directory: jdk16
-
-Tags: 3.0.9-jre16, 3.0-jre16, jre16
-Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: 400c5ce5baad6936a4fa3f6a52400345acb0dd9d
-Directory: jre16
-
-
-# Groovy 4
-
-Tags: 4.0.0-beta-1-jdk8, 4.0-jdk8, 4.0.0-beta-1-jdk, 4.0-jdk
-GitFetch: refs/heads/4.0
-Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: 368212f8ca90051f5542f9d64523e22bc8130a66
-Directory: jdk8
-
-Tags: 4.0.0-beta-1-jre8, 4.0-jre8, 4.0.0-beta-1-jre, 4.0-jre, 4.0.0-beta-1, 4.0
-GitFetch: refs/heads/4.0
-Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: 368212f8ca90051f5542f9d64523e22bc8130a66
-Directory: jre8
-
-Tags: 4.0.0-beta-1-jdk11, 4.0-jdk11
-GitFetch: refs/heads/4.0
-Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: 368212f8ca90051f5542f9d64523e22bc8130a66
-Directory: jdk11
-
-Tags: 4.0.0-beta-1-jre11, 4.0-jre11
-GitFetch: refs/heads/4.0
-Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: 368212f8ca90051f5542f9d64523e22bc8130a66
-Directory: jre11
-
-Tags: 4.0.0-beta-1-jdk16, 4.0-jdk16
-GitFetch: refs/heads/4.0
-Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: 368212f8ca90051f5542f9d64523e22bc8130a66
-Directory: jdk16
-
-Tags: 4.0.0-beta-1-jre16, 4.0-jre16
-GitFetch: refs/heads/4.0
-Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
-GitCommit: 368212f8ca90051f5542f9d64523e22bc8130a66
-Directory: jre16
+Tags: 4.0.8-jdk17-alpine, 4.0-jdk17-alpine, jdk17-alpine, 4.0.8-jdk-alpine, 4.0-jdk-alpine, 4.0.8-alpine, 4.0-alpine, 4-alpine, jdk-alpine, alpine
+GitFetch: refs/heads/master
+Architectures: amd64
+GitCommit: de3d7a503dc033e4ce07942165aa363867ba9ce3
+Directory: jdk17-alpine
